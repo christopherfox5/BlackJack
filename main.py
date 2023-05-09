@@ -21,24 +21,10 @@ def converter(card):
     else:
         return card
 
-
-def preliminary():
-    """
-This is the preliminary function for all requirements, it will have a warning
-since I am not using any of the varibles in this function.
-    """
-    y = 5 ** 5
-    p = 5 - 5
-    m = 5 // 5
-    n = 5 / 5
-    z = 5 % 5
-
-
 def main():
     """
 This is the main function that runs the game from start to end
     """
-    preliminary()
     print('*' * 8, 'Welcome to BlackJack!', '*' * 8, )
     # Dealing player
     card1 = (random.choice(deck))
